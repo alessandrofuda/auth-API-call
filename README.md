@@ -32,6 +32,6 @@ To run: upload to `/var/www/html/todoconsumer` ([http://localhost/todoconsumer](
 - `accept => application/json`
 - `Authorization => Bearer $access_token`
 
-4. OAuth2 Server --> provides the Access to Authenticated API Route and provides a Todos list
+4. OAuth2 Server --> provides the Access to Middleware-Protected API Route and provides a Todos list
 
 5. Client --> data rendering
