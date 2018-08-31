@@ -15,7 +15,7 @@ To run: upload to `/var/www/html/todoconsumer` ([http://localhost/todoconsumer](
 
 
 
-OAuth2 Flow Client->Server->Client->Server->Client :
+### OAuth2 Flow Client->Server->Client->Server->Client
 
 1. Client --> makes `POST` API-call to Server (to `/oauth/token` web route) including:  
 
@@ -32,3 +32,5 @@ OAuth2 Flow Client->Server->Client->Server->Client :
 - `Authorization => Bearer $access_token`
 
 4. OAuth2 Server --> provides the Access to Authenticated API Route and provides a Todos list
+
+5. Client --> data rendering
