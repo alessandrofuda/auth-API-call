@@ -28,7 +28,7 @@ To run: upload to `/var/www/html/todoconsumer` ([http://localhost/todoconsumer](
 
 2. OAuth2 Server --> provides the Access Token (Passport use JWT).
 
-3. Client --> makes `GET` API-call including AccessToken in Headers:
+3. Client --> makes `GET` API-call **including Access Token** in Headers:
 - `accept => application/json`
 - `Authorization => Bearer $access_token`.
 
