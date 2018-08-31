@@ -29,7 +29,7 @@ To run: upload to `/var/www/html/todoconsumer` ([http://localhost/todoconsumer](
 2. OAuth2 Server --> provides the Access Token (Passport use JWT).
 
 3. Client --> makes `GET` API-call **including Access Token** in Headers:
-- `accept => application/json`
+- `Accept => application/json`
 - `Authorization => Bearer $access_token`.
 
 4. OAuth2 Server --> provides the Access to Middleware-Protected API Route and provides a Todos list.
